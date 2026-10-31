@@ -1,0 +1,32 @@
+{
+  "name": "leqixiang-display-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/postbuild-css-defer.mjs && node scripts/postbuild-relativize-paths.mjs && node scripts/postbuild-sanitize-filenames.mjs && node scripts/emit-cache-headers.mjs",
+    "preview": "vite preview",
+    "test": "vitest",
+    "import:assets": "node scripts/import-assets.mjs",
+    "render:pdf": "python scripts/render-pdf-pages.py",
+    "validate:content": "node scripts/validate-content.mjs",
+    "smoke:browser": "node scripts/smoke-browser.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "ffmpeg-static": "^5.3.0",
+    "sharp": "^0.35.2",
+    "vitest": "^4.0.15"
+  }
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "logo",
+    "title": "乐启享 Logo",
+    "type": "image",
+    "source": "website",
+    "path": "/images/brand/logo.png",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "brand"
+    ]
+  },
+  {
+    "id": "logo-png",
+    "title": "乐启享 Logo PNG",
+    "type": "image",
+    "source": "website",
+    "path": "/images/brand/logo.png",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "brand"
+    ]
+  },
+  {
+    "id": "hero-bg",
+    "title": "官网首页背景",
+    "type": "image",
+    "source": "website",
+    "path": "/images/home/hero-bg.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "brand"
+    ]
+  },
+  {
+    "id": "classroom-7",
+    "title": "真实课堂",
+    "type": "image",
+    "source": "website",
+    "path": "/images/about/classroom7.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "classroom"
+    ]
+  },
+  {
+    "id": "classroom-6",
+    "title": "课堂环境",
+    "type": "image",
+    "source": "website",
+    "path": "/images/students/classroom6.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "classroom"
+    ]
+  },
+  {
+    "id": "classroom-3",
+    "title": "课堂互动",
+    "type": "image",
+    "source": "website",
+    "path": "/images/students/classroom3.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "classroom"
+    ]
+  },
+  {
+    "id": "classroom-8",
+    "title": "课堂作品",
+    "type": "image",
+    "source": "website",
+    "path": "/images/courses/classroom8.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "classroom"
+    ]
+  },
+  {
+    "id": "lego-course",
+    "title": "乐高课程",
+    "type": "image",
+    "source": "website",
+    "path": "/images/courses/lego-course.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "course"
+    ]
+  },
+  {
+    "id": "python-course",
+    "title": "Python课程",
+    "type": "image",
+    "source": "website",
+    "path": "/images/courses/python-course.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "course"
+    ]
+  },
+  {
+    "id": "cpp-course",
+    "title": "C++课程",
+    "type": "image",
+    "source": "website",
+    "path": "/images/courses/cpp-course.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "course"
+    ]
+  },
+  {
+    "id": "robot-camp",
+    "title": "机器人营地",
+    "type": "image",
+    "source": "website",
+    "path": "/images/courses/robot-camp.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "course"
+    ]
+  },
+  {
+    "id": "cert-1",
+    "title": "证书荣誉",
+    "type": "image",
+    "source": "website",
+    "path": "/images/honors/cert1.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "achievement"
+    ]
+  },
+  {
+    "id": "cert-4",
+    "title": "荣誉展示",
+    "type": "image",
+    "source": "website",
+    "path": "/images/honors/cert4.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "achievement"
+    ]
+  },
+  {
+    "id": "cert-5",
+    "title": "成果证书",
+    "type": "image",
+    "source": "website",
+    "path": "/images/honors/cert5.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "achievement"
+    ]
+  },
+  {
+    "id": "camp-2",
+    "title": "营地活动",
+    "type": "image",
+    "source": "website",
+    "path": "/images/showreel/camp2.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "activity"
+    ]
+  },
+  {
+    "id": "camp-3",
+    "title": "活动现场",
+    "type": "image",
+    "source": "website",
+    "path": "/images/showreel/camp3.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "activity"
+    ]
+  },
+  {
+    "id": "camp-4",
+    "title": "科技活动",
+    "type": "image",
+    "source": "website",
+    "path": "/images/showreel/camp4.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "activity"
+    ]
+  },
+  {
+    "id": "challenge-2",
+    "title": "挑战赛",
+    "type": "image",
+    "source": "website",
+    "path": "/images/students/challenge2.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "competition"
+    ]
+  },
+  {
+    "id": "challenge-3",
+    "title": "竞赛训练",
+    "type": "image",
+    "source": "website",
+    "path": "/images/students/challenge3.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "competition"
+    ]
+  },
+  {
+    "id": "challenge-4",
+    "title": "赛事活动",
+    "type": "image",
+    "source": "website",
+    "path": "/images/honors/challenge4.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "competition"
+    ]
+  },
+  {
+    "id": "camp-video-1",
+    "title": "营地视频1",
+    "type": "video",
+    "source": "website",
+    "path": "/images/showreel/camp1.mp4",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "activity"
+    ]
+  },
+  {
+    "id": "camp-video-2",
+    "title": "营地视频2",
+    "type": "video",
+    "source": "website",
+    "path": "/images/showreel/camp2.mp4",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "activity"
+    ]
+  },
+  {
+    "id": "camp-video-3",
+    "title": "营地视频3",
+    "type": "video",
+    "source": "website",
+    "path": "/images/showreel/camp3.mp4",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "activity"
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "pdf-page-01",
+    "title": "课程规划卡汇总封面",
+    "type": "image",
+    "source": "pdf",
+    "path": "/images/pricing/page-01.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "pdf",
+      "poster"
+    ]
+  },
+  {
+    "id": "pdf-page-30",
+    "title": "AI编程年卡权益图",
+    "type": "image",
+    "source": "pdf",
+    "path": "/images/pricing/page-30.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "pdf",
+      "poster"
+    ]
+  },
+  {
+    "id": "pdf-page-32",
+    "title": "乐高年卡权益图",
+    "type": "image",
+    "source": "pdf",
+    "path": "/images/pricing/page-32.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "pdf",
+      "poster"
+    ]
+  },
+  {
+    "id": "pdf-page-34",
+    "title": "产品使用权利说明",
+    "type": "image",
+    "source": "pdf",
+    "path": "/images/pricing/page-34.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "pdf",
+      "poster"
+    ]
+  },
+  {
+    "id": "pdf-page-36",
+    "title": "暑假活动价格图",
+    "type": "image",
+    "source": "pdf",
+    "path": "/images/pricing/page-36.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "pdf",
+      "poster"
+    ]
+  },
+  {
+    "id": "pdf-page-39",
+    "title": "机器人编程费用明细",
+    "type": "image",
+    "source": "pdf",
+    "path": "/images/pricing/page-39.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "pdf",
+      "poster"
+    ]
+  },
+  {
+    "id": "pdf-page-41",
+    "title": "暑假班课程宣传",
+    "type": "image",
+    "source": "pdf",
+    "path": "/images/pricing/page-41.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "pdf",
+      "poster"
+    ]
+  },
+  {
+    "id": "pdf-page-61",
+    "title": "科创小达人奖状",
+    "type": "image",
+    "source": "pdf",
+    "path": "/images/pricing/page-61.webp",
+    "displayable": true,
+    "privacy": "public",
+    "tags": [
+      "pdf",
+      "poster"
+    ]
+  }
+]

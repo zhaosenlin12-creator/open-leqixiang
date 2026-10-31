@@ -1,0 +1,49 @@
+﻿# =====================================================================
+# 乐启享数字展厅 — 子路径片段
+#
+# 适用于：服务器上已经有别的站点占用 80/443，想把展厅挂在某个子路径下，
+# 比如 https://your-domain.com/leqixiang/
+#
+# 用法：把下面这段加到你现有 server { } 块的合适位置
+# （不要放进其他 location 里，直接做 server 的子级）
+# =====================================================================
+
+# 站点根 alias + SPA 兜底
+location /leqixiang/ {
+    alias /var/www/leqixiang/;
+    index index.html;
+    try_files $uri $uri/ /leqixiang/index.html;
+
+    # 安全头
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+}
+
+# Vite 产出的带哈希资源
+location ~* ^/leqixiang/assets/(.*)$ {
+    alias /var/www/leqixiang/assets/$1;
+    access_log off;
+    expires 1y;
+    add_header Cache-Control "public, max-age=31536000, immutable" always;
+}
+
+# 媒体目录
+location ~* ^/leqixiang/(images|students|home|staff|courses|honors|about|pricing|showreel|brand|content)/(.*)$ {
+    alias /var/www/leqixiang/$1/$2;
+    expires 30d;
+    add_header Cache-Control "public, max-age=2592000" always;
+    access_log off;
+}
+
+# Manifest
+location ~* ^/leqixiang/.*\.json$ {
+    expires 5m;
+    add_header Cache-Control "public, max-age=300" always;
+}
+
+# 入口
+location = /leqixiang/index.html {
+    alias /var/www/leqixiang/index.html;
+    add_header Cache-Control "no-cache, must-revalidate" always;
+}

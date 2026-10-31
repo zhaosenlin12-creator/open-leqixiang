@@ -1,0 +1,40 @@
+﻿[Unit]
+Description=乐启享数字展厅 kiosk 大屏
+After=network-online.target graphical.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=kiosk
+Group=kiosk
+Environment=DISPLAY=:0
+Environment=KIOSK_URL=http://127.0.0.1/
+# 60 分钟无操作自动刷新一次，避免长跑内存累计
+Environment=KIOSK_RELOAD_SEC=3600
+# 强制全屏、自动播放、屏蔽鼠标右键
+ExecStart=/usr/bin/chromium \
+  --noerrdialogs \
+  --disable-infobars \
+  --disable-translate \
+  --no-first-run \
+  --kiosk \
+  --start-fullscreen \
+  --start-maximized \
+  --disable-pinch \
+  --overscroll-history-navigation=0 \
+  --check-for-update-interval=31536000 \
+  --disable-component-update \
+  --disable-features=TranslateUI \
+  --autoplay-policy=no-user-gesture-required \
+  --disable-session-crashed-bubble \
+  $KIOSK_URL
+Restart=always
+RestartSec=5
+
+# 内存软上限 1 GB，超了只是提示，不强杀
+MemoryHigh=1G
+MemoryMax=2G
+
+[Install]
+WantedBy=graphical.target
+

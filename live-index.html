@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color="#050608" />
+    <link rel="icon" href="./images/brand/logo-cropped.png" />
+    <link rel="preload" as="image" href="./images/brand/logo-cropped.png" fetchpriority="high" />
+    <!--
+      Hero first slide is `home-01` (`./images/home/camp2.webp`, 344 KB). We
+      preload exactly that one image. The smaller `./home/large/camp2.webp`
+      variant (109 KB) is loaded by the gallery fallback at runtime if the
+      display density prefers it — no need to preload both.
+    -->
+    <link rel="preload" as="image" href="./images/home/camp2.webp" fetchpriority="high" />
+    <title>乐启享数字展厅</title>
+    <script type="module" crossorigin src="./assets/index-CpUQSPAJ.js"></script>
+        <link rel="preload" as="style" href="./assets/index-D_RjNMXM.css" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="./assets/index-D_RjNMXM.css" /></noscript>
+  
+    <style>
+      html,body{margin:0;background:#050608;color:#fff;}
+      html,body,#root{width:100%;min-width:1024px;min-height:640px;height:100%;overflow:hidden;}
+      #root{isolation:isolate;}
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

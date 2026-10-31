@@ -1,0 +1,10 @@
+[
+  { "id": "hero", "type": "image", "title": "乐启享品牌首页", "enabled": true, "duration": 12, "assetId": "hero-bg" },
+  { "id": "summer", "type": "image", "title": "暑假班课程宣传", "enabled": true, "duration": 14, "assetId": "pdf-page-41" },
+  { "id": "rights", "type": "image", "title": "产品权益说明", "enabled": true, "duration": 14, "assetId": "pdf-page-34" },
+  { "id": "course-path", "type": "module", "title": "课程体系", "enabled": true, "duration": 14, "refId": "courses" },
+  { "id": "camp-video", "type": "video", "title": "营地活动视频", "enabled": true, "duration": 24, "assetId": "camp-video-2", "muted": true },
+  { "id": "award", "type": "image", "title": "科创小达人奖状", "enabled": true, "duration": 12, "assetId": "pdf-page-61" },
+  { "id": "pricing", "type": "pricing", "title": "价格权益入口", "enabled": true, "duration": 12, "refId": "pricing" }
+]
+

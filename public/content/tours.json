@@ -1,0 +1,99 @@
+[
+  {
+    "id": "quick-intro",
+    "title": "3分钟快速介绍",
+    "estimatedMinutes": 3,
+    "enabled": true,
+    "nodes": [
+      {
+        "id": "brand",
+        "type": "brand",
+        "title": "乐启享是谁",
+        "duration": 20,
+        "body": "少儿科技教育机构，围绕编程、机器人、AI 创赛和竞赛成长路径，帮助孩子在玩中学、在学中成长。"
+      },
+      {
+        "id": "course-path",
+        "type": "courses",
+        "title": "3-16岁成长路径",
+        "duration": 30,
+        "body": "从乐高搭建、机械结构、图形化编程，到 Python、C++ 和 AI 创赛，形成连续成长路线。"
+      },
+      {
+        "id": "outcomes",
+        "type": "module",
+        "title": "作品与成果",
+        "duration": 25,
+        "refId": "achievements",
+        "body": "通过项目作品、活动展示、赛事路径，让家长直观看到学习目标和阶段成果。"
+      },
+      {
+        "id": "pricing",
+        "type": "pricing",
+        "title": "价格权益",
+        "duration": 25,
+        "refId": "pricing",
+        "body": "公共展示权益与区间，顾问咨询时可打开完整价目表。"
+      },
+      {
+        "id": "contact",
+        "type": "contact",
+        "title": "预约咨询",
+        "duration": 15,
+        "body": "适合现场扫码、预约体验课或进入课程咨询。"
+      }
+    ]
+  },
+  {
+    "id": "full-consultation",
+    "title": "8分钟完整咨询",
+    "estimatedMinutes": 8,
+    "enabled": true,
+    "nodes": [
+      { "id": "strength", "type": "module", "title": "机构实力", "duration": 45, "refId": "strength" },
+      { "id": "courses", "type": "module", "title": "课程体系", "duration": 60, "refId": "courses" },
+      { "id": "features", "type": "brand", "title": "特色教学", "duration": 45, "body": "小班教学、项目驱动、软硬件结合、AI 融合和竞赛导向。" },
+      { "id": "achievements", "type": "module", "title": "成果荣誉", "duration": 50, "refId": "achievements" },
+      { "id": "students", "type": "module", "title": "学员风采", "duration": 40, "refId": "students" },
+      { "id": "pricing", "type": "module", "title": "价格权益", "duration": 45, "refId": "pricing" },
+      { "id": "contact", "type": "contact", "title": "预约报名", "duration": 25 }
+    ]
+  },
+  {
+    "id": "summer-camp",
+    "title": "暑假班专题",
+    "estimatedMinutes": 5,
+    "enabled": true,
+    "nodes": [
+      { "id": "summer-poster", "type": "asset", "title": "暑假班课程宣传", "duration": 35, "assetId": "pdf-page-41" },
+      { "id": "flight", "type": "asset", "title": "乐高航模暑期活动", "duration": 35, "assetId": "pdf-page-36" },
+      { "id": "price", "type": "asset", "title": "活动价格权益", "duration": 35, "assetId": "pdf-page-39" },
+      { "id": "video", "type": "asset", "title": "活动视频", "duration": 45, "assetId": "camp-video-1" }
+    ]
+  },
+  {
+    "id": "competition-path",
+    "title": "竞赛升学路线",
+    "estimatedMinutes": 5,
+    "enabled": true,
+    "nodes": [
+      { "id": "competition-map", "type": "module", "title": "赛事地图", "duration": 40, "refId": "achievements" },
+      { "id": "python", "type": "course", "title": "Python 进阶", "duration": 35, "refId": "python" },
+      { "id": "cpp", "type": "course", "title": "C++ 算法竞赛", "duration": 35, "refId": "cpp" },
+      { "id": "ai", "type": "course", "title": "AI 创赛营", "duration": 35, "refId": "ai-camp" }
+    ]
+  },
+  {
+    "id": "pricing-rights",
+    "title": "价格权益说明",
+    "estimatedMinutes": 4,
+    "enabled": true,
+    "nodes": [
+      { "id": "rights", "type": "asset", "title": "所有产品使用权利", "duration": 35, "assetId": "pdf-page-34" },
+      { "id": "ai-price", "type": "asset", "title": "AI 编程权益", "duration": 35, "assetId": "pdf-page-30" },
+      { "id": "lego-price", "type": "asset", "title": "乐高课程权益", "duration": 35, "assetId": "pdf-page-32" },
+      { "id": "robot-price", "type": "asset", "title": "机器人编程费用明细", "duration": 35, "assetId": "pdf-page-39" }
+    ]
+  }
+]
+

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color="#050608" />
+    <link rel="icon" href="./images/brand/logo-cropped.png" />
+    <!--
+      LCP 元素是顶栏品牌 logo：预加载轻量 webp（18 KB）而不是 187 KB 的 PNG。
+      Hero 首屏 `home-01` 使用 large webp 变体（107 KB），一并预加载，
+      避免首屏再拉 336 KB 的原始图。
+    -->
+    <link rel="preload" as="image" href="./images/brand/logo.webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="./home/large/camp2.webp" fetchpriority="high" />
+    <title>乐启享数字展厅</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

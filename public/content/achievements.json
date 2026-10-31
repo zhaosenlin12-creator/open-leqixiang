@@ -1,0 +1,14 @@
+{
+  "competitions": [
+    { "id": "wrc", "title": "世界机器人大赛 WRC", "summary": "机器人与工程实践方向的重要赛事路径。" },
+    { "id": "info-literacy", "title": "全国中小学信息素养大赛", "summary": "适合图形化编程、Python 和创意作品展示。" },
+    { "id": "lanqiao", "title": "蓝桥杯程序设计大赛", "summary": "面向 Python、C++ 和算法思维训练。" },
+    { "id": "csp-noip", "title": "CSP / NOIP 信息学路线", "summary": "适合高阶算法竞赛和升学展示路径。" }
+  ],
+  "showcases": [
+    { "id": "certificate", "title": "科创小达人奖状模板", "assetId": "pdf-page-61", "summary": "用于活动表彰和成果仪式。" },
+    { "id": "challenge", "title": "机器人挑战活动", "assetId": "challenge-2", "summary": "展示课堂之外的任务挑战和活动氛围。" },
+    { "id": "camp", "title": "特色创赛营", "assetId": "camp-3", "summary": "以项目制活动沉淀作品和表达能力。" }
+  ]
+}
+

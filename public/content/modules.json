@@ -1,0 +1,67 @@
+[
+  {
+    "id": "quick-tours",
+    "title": "快速导览",
+    "enabled": true,
+    "order": 1,
+    "summary": "顾问接待家长时的一键讲解路线",
+    "coverAssetId": "hero-bg"
+  },
+  {
+    "id": "strength",
+    "title": "机构实力",
+    "enabled": true,
+    "order": 2,
+    "summary": "完整课程体系、项目式学习、AI 融合和竞赛路径",
+    "coverAssetId": "classroom-7"
+  },
+  {
+    "id": "courses",
+    "title": "课程体系",
+    "enabled": true,
+    "order": 3,
+    "summary": "3-16 岁从搭建启蒙到算法竞赛和 AI 创赛",
+    "coverAssetId": "lego-course"
+  },
+  {
+    "id": "achievements",
+    "title": "成果荣誉",
+    "enabled": true,
+    "order": 4,
+    "summary": "赛事地图、奖状模板、作品成果和活动展示",
+    "coverAssetId": "cert-1"
+  },
+  {
+    "id": "staff",
+    "title": "师资团队",
+    "enabled": true,
+    "order": 5,
+    "summary": "先展示教研、课堂、项目和竞赛辅导能力",
+    "coverAssetId": "classroom-6"
+  },
+  {
+    "id": "students",
+    "title": "学员风采",
+    "enabled": true,
+    "order": 6,
+    "summary": "精选照片、作品、成长故事和获奖内容",
+    "coverAssetId": "camp-2"
+  },
+  {
+    "id": "pricing",
+    "title": "价格权益",
+    "enabled": true,
+    "order": 7,
+    "summary": "公共页看权益亮点，顾问页打开完整价目表",
+    "coverAssetId": "pdf-page-39"
+  },
+  {
+    "id": "announcements",
+    "title": "活动公告",
+    "enabled": true,
+    "order": 8,
+    "summary": "海报、视频、课程优惠和重要通知轮播池",
+    "coverAssetId": "pdf-page-41"
+  }
+]
+

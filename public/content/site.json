@@ -1,0 +1,14 @@
+{
+  "name": "乐启享",
+  "tagline": "乐创未来 启享编程",
+  "contact": {
+    "phone": "18164173640",
+    "address": "宜昌市夷陵区",
+    "qrCode": ""
+  },
+  "settings": {
+    "idleSeconds": 60,
+    "defaultSlideSeconds": 14
+  }
+}
+

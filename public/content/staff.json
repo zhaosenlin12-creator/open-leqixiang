@@ -1,0 +1,12 @@
+{
+  "mode": "capability-template",
+  "capabilities": [
+    "课程体系教研能力",
+    "机器人与机械结构课堂指导",
+    "Scratch / Python / C++ 编程教学",
+    "AI 创赛项目辅导",
+    "小班互动和项目制课堂管理",
+    "竞赛路线规划与阶段性复盘"
+  ]
+}
+

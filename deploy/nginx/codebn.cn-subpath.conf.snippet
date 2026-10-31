@@ -1,0 +1,17 @@
+# =====================================================================
+# 乐启享数字展厅 — codebn.cn 子路径片段
+#
+# 挂在 https://codebn.cn/d/ 子路径下（你官网已有的 codebn.cn server 块里追加）
+# 直接加到现有 server { } 块的合适位置（不要放进其他 location 里）
+# =====================================================================
+
+location /d/ {
+    alias /www/wwwroot/codebn.cn/d/;
+    index index.html;
+    try_files $uri $uri/ /d/index.html;
+
+    # 安全头
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+}
